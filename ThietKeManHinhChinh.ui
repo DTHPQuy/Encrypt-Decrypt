@@ -27,8 +27,11 @@
       <height>881</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>31</number>
     </property>
     <widget class="QWidget" name="Main">
      <widget class="QPushButton" name="GMHienDai_btn_0">
@@ -90,7 +93,7 @@ background-color:#01C38E;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -153,7 +156,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -216,7 +219,7 @@ color: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -407,7 +410,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -470,7 +473,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -505,7 +508,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -540,7 +543,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -655,7 +658,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -789,7 +792,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -824,7 +827,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -859,7 +862,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -894,7 +897,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -954,7 +957,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -1018,7 +1021,7 @@ color: #1AF5B9;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -1330,7 +1333,7 @@ background-color:#01C38E;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -1393,7 +1396,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -1425,7 +1428,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -1460,7 +1463,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -1520,7 +1523,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -1555,7 +1558,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -1742,7 +1745,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -1774,7 +1777,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -1809,7 +1812,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -1844,7 +1847,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -1904,7 +1907,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -1965,7 +1968,7 @@ color: #1AF5B9;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -2000,7 +2003,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -2130,7 +2133,7 @@ background-color:#01C38E;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -2165,7 +2168,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -2247,7 +2250,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -2343,7 +2346,7 @@ color:#FFFFFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -2378,7 +2381,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -2484,7 +2487,7 @@ background-color:#01C38E;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -2632,7 +2635,7 @@ background-color:#01C38E;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -2667,7 +2670,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -2702,7 +2705,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -2791,7 +2794,7 @@ color: #1AF5B9;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -2873,7 +2876,7 @@ background-color:#01C38E;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -2936,7 +2939,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -3042,7 +3045,7 @@ color:#FFFFFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -3077,7 +3080,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -3112,7 +3115,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -3266,7 +3269,7 @@ background-color:#01C38E;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -3329,7 +3332,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -3432,7 +3435,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -3467,7 +3470,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -3669,7 +3672,7 @@ background-color:#01C38E;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -3701,7 +3704,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -3753,7 +3756,7 @@ color:#FFFFFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -3816,7 +3819,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -3907,7 +3910,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -3942,7 +3945,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -4002,7 +4005,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -4035,7 +4038,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -4070,7 +4073,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -4133,7 +4136,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -4168,7 +4171,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -4361,7 +4364,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -4425,7 +4428,7 @@ color: #1AF5B9;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -4485,7 +4488,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -4546,7 +4549,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -4600,7 +4603,7 @@ background-color:#01C38E;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -4635,7 +4638,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -4702,7 +4705,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -4734,7 +4737,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -4790,7 +4793,7 @@ color:#FFFFFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -4890,7 +4893,7 @@ color:#FFFFFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -5028,7 +5031,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -5262,7 +5265,7 @@ color:#FFFFFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -5325,7 +5328,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -5407,7 +5410,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -5488,7 +5491,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -5523,7 +5526,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -5581,7 +5584,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -5614,7 +5617,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -5665,7 +5668,7 @@ background-color:#01C38E;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -5728,7 +5731,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -5763,7 +5766,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -5826,7 +5829,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -5908,7 +5911,7 @@ background-color:#01C38E;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -5960,7 +5963,7 @@ color:#FFFFFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -6058,7 +6061,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -6186,7 +6189,7 @@ background-color:#01C38E;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -6249,7 +6252,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -6350,7 +6353,7 @@ background-color:#01C38E;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -6413,7 +6416,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -6448,7 +6451,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -6511,7 +6514,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -6617,7 +6620,7 @@ color:#FFFFFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -6649,7 +6652,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -6684,7 +6687,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -6737,7 +6740,7 @@ color:#FFFFFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -6854,7 +6857,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -6947,7 +6950,7 @@ color:#FFFFFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -7010,7 +7013,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -7045,7 +7048,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -7106,7 +7109,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -7166,7 +7169,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -7236,7 +7239,7 @@ background-color:#01C38E;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -7352,7 +7355,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -7384,7 +7387,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -7447,7 +7450,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -7530,7 +7533,7 @@ color:#FFFFFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -7565,7 +7568,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -7628,7 +7631,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -7755,7 +7758,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -7858,7 +7861,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -7949,7 +7952,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -8130,7 +8133,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -8267,7 +8270,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -8299,7 +8302,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -8362,7 +8365,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -8397,7 +8400,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -8479,7 +8482,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -8514,7 +8517,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -8549,7 +8552,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -8581,7 +8584,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -8703,7 +8706,7 @@ color: #1AF5B9;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -8838,7 +8841,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -8873,7 +8876,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -8926,7 +8929,7 @@ color:#FFFFFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -9014,7 +9017,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -9067,7 +9070,7 @@ color:#FFFFFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -9102,7 +9105,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -9237,7 +9240,7 @@ color: #1AF5B9;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -9316,7 +9319,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -9407,7 +9410,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -9442,7 +9445,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -9525,7 +9528,7 @@ color:#FFFFFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -9560,7 +9563,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -9632,7 +9635,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -9798,7 +9801,7 @@ background-color:#01C38E;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -9850,7 +9853,7 @@ background-color:#01C38E;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -9885,7 +9888,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -9982,7 +9985,7 @@ color:#FFFFFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -10045,7 +10048,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -10108,7 +10111,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -10143,7 +10146,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -10178,7 +10181,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -10241,7 +10244,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -10299,7 +10302,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -10589,7 +10592,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -10624,7 +10627,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -10687,7 +10690,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -10722,7 +10725,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -10798,7 +10801,7 @@ color:#FFFFFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -10852,7 +10855,7 @@ background-color:#01C38E;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -10887,7 +10890,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -10922,7 +10925,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -11052,7 +11055,7 @@ color: #1AF5B9;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -11103,7 +11106,7 @@ color:#FFFFFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -11194,7 +11197,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -11369,7 +11372,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -11404,7 +11407,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -11457,7 +11460,7 @@ color:#FFFFFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -11545,7 +11548,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -11598,7 +11601,7 @@ color:#FFFFFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -11633,7 +11636,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -11768,7 +11771,7 @@ color: #1AF5B9;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -11847,7 +11850,7 @@ background-color:#01C38E;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -11910,7 +11913,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -11945,7 +11948,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -12028,7 +12031,7 @@ color:#FFFFFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -12063,7 +12066,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -12095,7 +12098,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -12223,7 +12226,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -12258,7 +12261,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -12321,7 +12324,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -12356,7 +12359,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -12407,7 +12410,7 @@ color:#FFFFFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -12442,7 +12445,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -12477,7 +12480,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -12709,7 +12712,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -12769,7 +12772,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -12804,7 +12807,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -12883,7 +12886,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -13169,7 +13172,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -13204,7 +13207,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -13264,7 +13267,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -13299,7 +13302,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -13353,7 +13356,7 @@ background-color:#01C38E;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -13406,7 +13409,7 @@ color:#FFFFFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -13457,7 +13460,7 @@ color:#FFFFFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -13577,7 +13580,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -13612,7 +13615,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -13647,7 +13650,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -13710,7 +13713,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -13858,7 +13861,7 @@ background-color:#01C38E;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -13893,7 +13896,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -13956,7 +13959,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -13988,7 +13991,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -14107,7 +14110,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -14142,7 +14145,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -14177,7 +14180,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -14255,7 +14258,7 @@ color:#FFFFFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -14372,7 +14375,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -14508,7 +14511,7 @@ color:#FFFFFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -14543,7 +14546,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -14673,7 +14676,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -14708,7 +14711,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -14741,7 +14744,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -15010,7 +15013,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -15062,7 +15065,7 @@ color:#FFFFFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -15094,7 +15097,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -15157,7 +15160,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -15211,7 +15214,7 @@ background-color:#01C38E;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -15308,7 +15311,7 @@ background-color:#01C38E;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -15343,7 +15346,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -15378,7 +15381,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -15413,7 +15416,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -15506,7 +15509,7 @@ color:#FFFFFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -15557,7 +15560,7 @@ background-color:#01C38E;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -15590,7 +15593,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -15669,7 +15672,7 @@ color:#FFFFFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -15704,7 +15707,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -15739,7 +15742,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -15799,7 +15802,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -15910,7 +15913,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -15970,7 +15973,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -16005,7 +16008,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -16096,7 +16099,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -16150,7 +16153,7 @@ background-color:#01C38E;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -16213,7 +16216,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -16389,7 +16392,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -16424,7 +16427,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -16459,7 +16462,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -16538,7 +16541,7 @@ background-color:#01C38E;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -16618,7 +16621,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -16653,7 +16656,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -16781,7 +16784,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -16900,7 +16903,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -16935,7 +16938,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -17024,7 +17027,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -17131,7 +17134,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -17206,7 +17209,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -17238,7 +17241,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -17273,7 +17276,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -17305,7 +17308,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -17388,7 +17391,7 @@ color:#FFFFFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -17503,7 +17506,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -17538,7 +17541,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -17668,7 +17671,7 @@ background-color:#01C38E;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -17700,7 +17703,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -17753,7 +17756,7 @@ color:#FFFFFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -17788,7 +17791,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -17879,7 +17882,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -17967,7 +17970,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -18237,7 +18240,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -18315,7 +18318,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -18388,7 +18391,7 @@ background-color:#01C38E;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -18420,7 +18423,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -18455,7 +18458,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -18516,7 +18519,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -18551,7 +18554,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -18586,7 +18589,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -18621,7 +18624,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -18758,7 +18761,7 @@ color: #1AF5B9;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -18793,7 +18796,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -18887,7 +18890,7 @@ background-color:#01C38E;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -19004,7 +19007,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -19057,7 +19060,7 @@ color:#FFFFFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -19110,7 +19113,7 @@ color:#FFFFFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -19143,7 +19146,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -19225,7 +19228,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -19260,7 +19263,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -19295,7 +19298,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -19377,7 +19380,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -19412,7 +19415,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -19557,7 +19560,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -19647,7 +19650,7 @@ color:#FFFFFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -19679,7 +19682,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -19713,7 +19716,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -19748,7 +19751,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -19901,7 +19904,7 @@ background-color:#01C38E;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -19992,7 +19995,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -20055,7 +20058,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -20156,7 +20159,7 @@ color:#FFFFFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -20216,7 +20219,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -20251,7 +20254,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -20332,7 +20335,7 @@ color:#FFFFFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -20365,7 +20368,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -20447,7 +20450,7 @@ background-color:#01C38E;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -20479,7 +20482,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -20610,7 +20613,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -20660,7 +20663,7 @@ color:#FFFFFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -20695,7 +20698,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -20727,7 +20730,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -20762,7 +20765,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -20842,7 +20845,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -20914,7 +20917,7 @@ background-color:#01C38E;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -20949,7 +20952,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -21001,7 +21004,7 @@ color:#FFFFFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -21137,7 +21140,7 @@ color: #1AF5B9;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -21200,7 +21203,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -21263,7 +21266,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -21380,7 +21383,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -21501,7 +21504,7 @@ color:#FFFFFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -21534,7 +21537,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -21595,7 +21598,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -21630,7 +21633,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -21749,7 +21752,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -21809,7 +21812,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -21891,7 +21894,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -22011,7 +22014,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -22065,7 +22068,7 @@ background-color:#01C38E;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -22144,7 +22147,7 @@ background-color:#01C38E;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -22225,7 +22228,7 @@ color:#FFFFFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -22300,7 +22303,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -22332,7 +22335,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -22386,7 +22389,7 @@ background-color:#01C38E;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -22467,7 +22470,7 @@ color: #1AF5B9;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -22527,7 +22530,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -22590,7 +22593,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -22643,7 +22646,7 @@ color:#FFFFFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -22706,7 +22709,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -22738,7 +22741,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -22773,7 +22776,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -23058,7 +23061,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -23091,7 +23094,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -23126,7 +23129,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -23350,7 +23353,7 @@ color:#FFFFFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -23432,7 +23435,7 @@ color:#FFFFFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -23467,7 +23470,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -23502,7 +23505,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -23581,7 +23584,7 @@ background-color:#01C38E;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -23616,7 +23619,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -23676,7 +23679,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -23739,7 +23742,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -23774,7 +23777,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -23826,7 +23829,7 @@ background-color:#01C38E;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -23915,7 +23918,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -23990,7 +23993,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -24022,7 +24025,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -24099,7 +24102,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -24131,7 +24134,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -24166,7 +24169,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -24322,7 +24325,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -24357,7 +24360,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -24392,7 +24395,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -24474,7 +24477,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -24509,7 +24512,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -24657,7 +24660,7 @@ color: #1AF5B9;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -24827,7 +24830,7 @@ background-color:#01C38E;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -24909,7 +24912,7 @@ background-color:#01C38E;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -25089,7 +25092,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -25121,7 +25124,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -25156,7 +25159,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -25191,7 +25194,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -25280,7 +25283,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -25343,7 +25346,7 @@ background: #FFF;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -25378,7 +25381,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -25413,7 +25416,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -25448,7 +25451,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -25517,7 +25520,7 @@ background-color:#01C38E;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -25549,7 +25552,7 @@ line-height: normal;
       <property name="font">
        <font>
         <family>Lexend Exa</family>
-        <pointsize>1</pointsize>
+        <pointsize>-1</pointsize>
         <weight>87</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -25638,6 +25641,622 @@ background: #FFF;
        <bool>true</bool>
       </property>
      </widget>
+    </widget>
+    <widget class="QWidget" name="Login">
+     <widget class="QLabel" name="label_69">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>410</y>
+        <width>35</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../ảnh cho app/Exit.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="usernameInput">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>290</y>
+        <width>260</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Segoe UI</family>
+        <pointsize>11</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+        <underline>false</underline>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit
+{
+border-radius: 15px;
+background-color:#1A1E29;
+color:rgb(255, 255, 255);
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="loginButton">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>410</y>
+        <width>110</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+border-radius: 15px;
+background-color:#1A1E29;
+color:rgb(255, 255, 255);
+}</string>
+      </property>
+      <property name="text">
+       <string>Login</string>
+      </property>
+     </widget>
+     <widget class="QGraphicsView" name="graphicsView">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>210</y>
+        <width>421</width>
+        <height>300</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QGraphicsView
+{
+border-radius: 15px;
+background-color:#138267;
+color:rgb(255, 255, 255);
+}</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_70">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>340</y>
+        <width>35</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../ảnh cho app/lock.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="passwordInput">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>340</y>
+        <width>201</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit
+{
+border-radius: 15px;
+background-color:#1A1E29;
+color:rgb(255, 255, 255);
+}</string>
+      </property>
+      <property name="inputMask">
+       <string/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Password</enum>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_71">
+      <property name="geometry">
+       <rect>
+        <x>440</x>
+        <y>260</y>
+        <width>181</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../ảnh cho app/Screenshot_1.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="cancelButton">
+      <property name="geometry">
+       <rect>
+        <x>560</x>
+        <y>410</y>
+        <width>110</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+border-radius: 15px;
+background-color:#1A1E29;
+color:rgb(255, 255, 255);
+}</string>
+      </property>
+      <property name="text">
+       <string>Cancel</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="showPasswordButton">
+      <property name="geometry">
+       <rect>
+        <x>620</x>
+        <y>340</y>
+        <width>51</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background-color:rgb(0, 0, 0)
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../ảnh cho app/eyeclose.png</normaloff>
+        <normalon>../ảnh cho app/eye.png</normalon>../ảnh cho app/eyeclose.png</iconset>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_72">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>220</y>
+        <width>140</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Segoe UI</family>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: #FFFFFF;
+background-color:#138267;</string>
+      </property>
+      <property name="text">
+       <string>ĐĂNG NHẬP</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_73">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>290</y>
+        <width>35</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../ảnh cho app/user_icon.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="SignUp_btn">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>460</y>
+        <width>181</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Segoe UI</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: #FFFFFF;
+background-color:#138267;
+border: relative;</string>
+      </property>
+      <property name="text">
+       <string>Bạn chưa có tài khoản?</string>
+      </property>
+     </widget>
+     <zorder>graphicsView</zorder>
+     <zorder>label_69</zorder>
+     <zorder>usernameInput</zorder>
+     <zorder>loginButton</zorder>
+     <zorder>label_70</zorder>
+     <zorder>passwordInput</zorder>
+     <zorder>label_71</zorder>
+     <zorder>cancelButton</zorder>
+     <zorder>showPasswordButton</zorder>
+     <zorder>label_72</zorder>
+     <zorder>label_73</zorder>
+     <zorder>SignUp_btn</zorder>
+    </widget>
+    <widget class="QWidget" name="SignUp">
+     <widget class="QPushButton" name="showPasswordButton_2">
+      <property name="geometry">
+       <rect>
+        <x>600</x>
+        <y>340</y>
+        <width>51</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:#138267;
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../ảnh cho app/6803345.png</normaloff>
+        <normalon>../ảnh cho app/eyeclose.png</normalon>../ảnh cho app/6803345.png</iconset>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_74">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>260</y>
+        <width>181</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+background-color:#1A1E29;
+}
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../ảnh cho app/Screenshot_2.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="showPasswordButton2_2">
+      <property name="geometry">
+       <rect>
+        <x>600</x>
+        <y>390</y>
+        <width>51</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:#138267;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../ảnh cho app/6803345.png</normaloff>
+        <normalon>../ảnh cho app/eyeclose.png</normalon>../ảnh cho app/6803345.png</iconset>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_75">
+      <property name="geometry">
+       <rect>
+        <x>480</x>
+        <y>220</y>
+        <width>81</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Segoe UI</family>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+        <kerning>true</kerning>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+color: #FFF;
+background-color:#1A1E29;
+}</string>
+      </property>
+      <property name="text">
+       <string>Đăng ký</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_76">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>360</y>
+        <width>40</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../ảnh cho app/Screenshot_4.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="cancelButton_2">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>440</y>
+        <width>110</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+border-radius: 15px;
+background-color:#138267;
+color:rgb(255, 255, 255);
+}</string>
+      </property>
+      <property name="text">
+       <string>Cancel</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="usernameInput_2">
+      <property name="geometry">
+       <rect>
+        <x>390</x>
+        <y>290</y>
+        <width>260</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit
+{
+border-radius: 15px;
+background-color:#138267;
+color:rgb(255, 255, 255);
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_77">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>290</y>
+        <width>40</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../ảnh cho app/Screenshot_3.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="signupButton_2">
+      <property name="geometry">
+       <rect>
+        <x>390</x>
+        <y>440</y>
+        <width>110</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+border-radius: 15px;
+background-color:#138267;
+color:rgb(255, 255, 255);
+}</string>
+      </property>
+      <property name="text">
+       <string>Sign up</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="passwordInput2_2">
+      <property name="geometry">
+       <rect>
+        <x>390</x>
+        <y>390</y>
+        <width>201</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit
+{
+border-radius: 15px;
+background-color:#138267;
+color:rgb(255, 255, 255);
+}</string>
+      </property>
+      <property name="inputMask">
+       <string/>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Password</enum>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_78">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>440</y>
+        <width>40</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../ảnh cho app/Screenshot_5.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="passwordInput_2">
+      <property name="geometry">
+       <rect>
+        <x>390</x>
+        <y>340</y>
+        <width>201</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit
+{
+border-radius: 15px;
+background-color:#138267;
+color:rgb(255, 255, 255);
+}</string>
+      </property>
+      <property name="inputMask">
+       <string/>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Password</enum>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QGraphicsView" name="graphicsView_2">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>200</y>
+        <width>421</width>
+        <height>300</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QGraphicsView
+{
+border: 2px solid #1AF5B9;
+border-radius:15px;
+background-color:#1A1E29;
+color:rgb(255, 255, 255);
+}</string>
+      </property>
+     </widget>
+     <zorder>graphicsView_2</zorder>
+     <zorder>label_76</zorder>
+     <zorder>usernameInput_2</zorder>
+     <zorder>signupButton_2</zorder>
+     <zorder>showPasswordButton2_2</zorder>
+     <zorder>label_77</zorder>
+     <zorder>passwordInput_2</zorder>
+     <zorder>label_75</zorder>
+     <zorder>label_74</zorder>
+     <zorder>cancelButton_2</zorder>
+     <zorder>label_78</zorder>
+     <zorder>passwordInput2_2</zorder>
+     <zorder>showPasswordButton_2</zorder>
     </widget>
    </widget>
   </widget>

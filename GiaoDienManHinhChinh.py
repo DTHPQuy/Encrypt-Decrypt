@@ -6,7 +6,6 @@ from PyQt5 import uic
 from PyQt5.QtGui import QFont
 from PyQt5.QtCore import pyqtSignal
 from PyQt5 import uic
-from View.loginDialog import Ui_Dialog as Ui_Login
 
 #import các class
 from mahoaceasar_class import CCeasar
@@ -52,7 +51,27 @@ class MyMainWindow(QMainWindow):
         self.GMXOR_btn_0.clicked.connect(self.Show_XOR_Ceasar_Dec)
         self.GMHienDai_btn_0.clicked.connect(self.Show_AES_Dec)
         
+        #Button trong Login
+         # Khai báo một biến để theo dõi trạng thái của mật khẩu
+        self.password_visible = False
+        # Khi nút Đăng nhập được nhấn, kiểm tra tên đăng nhập và mật khẩu
+        self.loginButton.clicked.connect(self.check_login)
+        # Khi nút "Hiển thị mật khẩu" được nhấn, chuyển đổi echoMode
+        self.showPasswordButton.clicked.connect(self.toggle_password_visibility_Login)
+        #Button chuyển qua trang SignUp
+        self.SignUp_btn.clicked.connect(self.ManHinhDangKy)
+
+        self.cancelButton.clicked.connect(self.close)
         #Các button của các Stacked Widget
+
+        #Button trong Đăng ký
+    
+        # Khi nút Đăng nhập được nhấn, kiểm tra tên đăng nhập và mật khẩu
+        self.signupButton_2.clicked.connect(self.check_signup)
+        # Khi nút "Hiển thị mật khẩu" được nhấn, chuyển đổi echoMode
+        self.showPasswordButton_2.clicked.connect(self.toggle_password_visibility)
+        self.showPasswordButton2_2.clicked.connect(self.toggle_password_visibility)
+        self.cancelButton_2.clicked.connect(self.ManHinhDangNhap)
 
             # Button của Mã Hóa Ceasar
         self.btnClose_1.clicked.connect(self.ManHinhChinh)
@@ -467,6 +486,11 @@ class MyMainWindow(QMainWindow):
     def ManHinhChinh(self):
         self.stackedWidget.setCurrentWidget(self.Main)
 
+    def ManHinhDangNhap(self):
+        self.stackedWidget.setCurrentWidget(self.Login)
+
+    def ManHinhDangKy(self):
+        self.stackedWidget.setCurrentWidget(self.SignUp)
         #Các màn hình mã hóa
     
     def Show_Ceasar_Enc(self):
@@ -1601,6 +1625,7 @@ class MyMainWindow(QMainWindow):
                 file.write(self.txtVanBanGoc_30.toPlainText())
             self.show_custom_message("Thông báo", "Lưu file giải mã thành công!!!!")
     #=====================================================================================================================
+    
     def show_custom_message(self, title, content):
         # Tạo đối tượng QMessageBox
         msg_box = QMessageBox()
@@ -1619,12 +1644,88 @@ class MyMainWindow(QMainWindow):
             label.setStyleSheet("color: " + "#1AF5B9" + ";")
         # Hiển thị MessageBox
         msg_box.exec()
+    
+    def toggle_password_visibility_Login(self):
+        if self.password_visible:
+            self.passwordInput.setEchoMode(QLineEdit.EchoMode.Password)
+            self.password_visible = False
+        else:
+            self.passwordInput.setEchoMode(QLineEdit.EchoMode.Normal)
+            self.password_visible = True
+
+    def check_Account(self,us,ps):
+        with open("D:\\detaibaomat\\Data\\account.txt", "r", encoding='utf-8') as file:
+            for line in file:
+                if line.strip() == us+","+ps:
+                    return True
+            return False
+    
+    def check_login(self):
+        username = self.usernameInput.text()
+        us = mahoasha3.MaHoaSha3(username) 
+        password = self.passwordInput.text()
+        ps = mahoasha3.MaHoaSha3(password)
+        if self.check_Account(us,ps):
+            self.openMainWindow()
+        else:
+            message_box = QMessageBox()
+            message_box.setIcon(QMessageBox.Icon.Information)  # Loại biểu tượng (Information)
+            message_box.setWindowTitle('Thông báo')  # Tiêu đề
+            message_box.setText('Bạn nhập sai username và password.')  # Nội dung thông báo
+            message_box.setStandardButtons(QMessageBox.StandardButton.Ok)  # Các nút (OK)
+            result = message_box.exec()  # Hiển thị hộp thoại và chờ đợi phản hồi từ người dùng
+            self.usernameInput.setFocus()
+
+    def toggle_password_visibility(self):
+        if self.password_visible:
+            self.passwordInput_2.setEchoMode(QLineEdit.EchoMode.Password)
+            self.passwordInput2_2.setEchoMode(QLineEdit.EchoMode.Password)
+            self.password_visible = False
+        else:
+            self.passwordInput_2.setEchoMode(QLineEdit.EchoMode.Normal)
+            self.passwordInput2_2.setEchoMode(QLineEdit.EchoMode.Normal)
+            self.password_visible = True
+    
+         
+    def check_signup(self):
+        self.username = self.usernameInput_2.text()
+        self.password = self.passwordInput_2.text()
+        password2 = self.passwordInput2_2.text()
+        if(self.password != password2):
+            message_box = QMessageBox()
+            message_box.setIcon(QMessageBox.Icon.Information)  # Loại biểu tượng (Information)
+            message_box.setWindowTitle('Thông báo')  # Tiêu đề
+            message_box.setText('Bạn nhập password lần hai chưa đúng.')  # Nội dung thông báo
+            message_box.setStandardButtons(QMessageBox.StandardButton.Ok)  # Các nút (OK)
+            result = message_box.exec()  # Hiển thị hộp thoại và chờ đợi phản hồi từ người dùng
+            self.passwordInput2_2.setFocus()
+        else:
+            us = mahoasha3.MaHoaSha3(self.username)
+            ps = mahoasha3.MaHoaSha3(self.password)
+            
+            
+            with open("D:\\detaibaomat\\Data\\account.txt", "a", encoding='utf-8') as file:
+                file.write(us+","+ps+"\n")
+            self.openLoginWindow()
+
+    def openLoginWindow(self):
+        self.stackedWidget.setCurrentWidget(self.Login)
+        self.usernameInput.setText(self.username)
+        self.passwordInput.setText(self.password)
+        #mở màn hình login
+
+    def openMainWindow(self):
+         self.stackedWidget.setCurrentWidget(self.Main)
+         #mở màn hình chính
+         #đóng màn hình login lại
+    
 def main():
     app = QApplication(sys.argv)
     main_window = MyMainWindow()
     main_window.show()
     sys.exit(app.exec())
 
+    
 if __name__ == "__main__":
     main()
 
