@@ -28,7 +28,8 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true"/>
+     <string notr="true">background-color:#1A1E29;
+</string>
     </property>
     <property name="currentIndex">
      <number>31</number>
@@ -60,25 +61,6 @@ background: #FFF;
       </property>
       <property name="text">
        <string>Hiện Đại</string>
-      </property>
-     </widget>
-     <widget class="Line" name="line_4">
-      <property name="geometry">
-       <rect>
-        <x>670</x>
-        <y>190</y>
-        <width>5</width>
-        <height>371</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Vertical</enum>
       </property>
      </widget>
      <widget class="QLabel" name="label_5">
@@ -293,25 +275,6 @@ background: #FFF;
       </property>
       <property name="text">
        <string>Chuyển vị</string>
-      </property>
-     </widget>
-     <widget class="Line" name="line_3">
-      <property name="geometry">
-       <rect>
-        <x>350</x>
-        <y>190</y>
-        <width>5</width>
-        <height>371</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Vertical</enum>
       </property>
      </widget>
      <widget class="QPushButton" name="MHXOR_btn_0">
@@ -726,9 +689,46 @@ color: #1AF5B9;
        <bool>true</bool>
       </property>
      </widget>
+     <widget class="QLabel" name="label_178">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>190</y>
+        <width>5</width>
+        <height>370</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_179">
+      <property name="geometry">
+       <rect>
+        <x>670</x>
+        <y>190</y>
+        <width>5</width>
+        <height>370</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
      <zorder>label_12</zorder>
      <zorder>GMHienDai_btn_0</zorder>
-     <zorder>line_4</zorder>
      <zorder>label_5</zorder>
      <zorder>GMXOR_btn_0</zorder>
      <zorder>label_6</zorder>
@@ -736,7 +736,6 @@ color: #1AF5B9;
      <zorder>label_2</zorder>
      <zorder>MHMotChieu_btn_0</zorder>
      <zorder>MHChuyenVi_btn_0</zorder>
-     <zorder>line_3</zorder>
      <zorder>MHXOR_btn_0</zorder>
      <zorder>MHHienDai_btn_0</zorder>
      <zorder>GMChuyenVi_btn_0</zorder>
@@ -750,6 +749,8 @@ color: #1AF5B9;
      <zorder>GMThayThe_btn_0</zorder>
      <zorder>label_9</zorder>
      <zorder>label_13</zorder>
+     <zorder>label_178</zorder>
+     <zorder>label_179</zorder>
     </widget>
     <widget class="QWidget" name="Ceasar_Enc">
      <widget class="QPushButton" name="MHHienDai_btn_1">
@@ -1098,25 +1099,6 @@ background: #FFF;
        <string>Belasco</string>
       </property>
      </widget>
-     <widget class="Line" name="line">
-      <property name="geometry">
-       <rect>
-        <x>70</x>
-        <y>200</y>
-        <width>211</width>
-        <height>5</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Horizontal</enum>
-      </property>
-     </widget>
      <widget class="QTextEdit" name="txtPlaintext_1">
       <property name="geometry">
        <rect>
@@ -1265,25 +1247,6 @@ background: #FFF;
        <string>XOR</string>
       </property>
      </widget>
-     <widget class="Line" name="line_5">
-      <property name="geometry">
-       <rect>
-        <x>70</x>
-        <y>380</y>
-        <width>211</width>
-        <height>5</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Horizontal</enum>
-      </property>
-     </widget>
      <widget class="QTextEdit" name="txtCiphertext_1">
       <property name="geometry">
        <rect>
@@ -1300,25 +1263,6 @@ background-color:#1A1E29;
 border: 2px solid #01C38E;
 color:#FFFFFF;
 }</string>
-      </property>
-     </widget>
-     <widget class="Line" name="line_2">
-      <property name="geometry">
-       <rect>
-        <x>370</x>
-        <y>60</y>
-        <width>3</width>
-        <height>601</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Vertical</enum>
       </property>
      </widget>
      <widget class="QLabel" name="label_21">
@@ -1645,6 +1589,63 @@ background: #FFF;
       </property>
       <property name="scaledContents">
        <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_79">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>200</y>
+        <width>210</width>
+        <height>5</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_80">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>380</y>
+        <width>210</width>
+        <height>5</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_81">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>80</y>
+        <width>5</width>
+        <height>600</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
       </property>
      </widget>
     </widget>
@@ -2102,25 +2103,6 @@ color:#FFFFFF;
 </string>
       </property>
      </widget>
-     <widget class="Line" name="line_6">
-      <property name="geometry">
-       <rect>
-        <x>370</x>
-        <y>60</y>
-        <width>3</width>
-        <height>601</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Vertical</enum>
-      </property>
-     </widget>
      <widget class="QLabel" name="label_35">
       <property name="geometry">
        <rect>
@@ -2189,25 +2171,6 @@ line-height: normal;
       </property>
       <property name="alignment">
        <set>Qt::AlignCenter</set>
-      </property>
-     </widget>
-     <widget class="Line" name="line_7">
-      <property name="geometry">
-       <rect>
-        <x>70</x>
-        <y>380</y>
-        <width>211</width>
-        <height>5</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Horizontal</enum>
       </property>
      </widget>
      <widget class="QPushButton" name="MHChuyenVi_btn_2">
@@ -2456,25 +2419,6 @@ background: #FFF;
        <string>Lưu file</string>
       </property>
      </widget>
-     <widget class="Line" name="line_8">
-      <property name="geometry">
-       <rect>
-        <x>70</x>
-        <y>200</y>
-        <width>211</width>
-        <height>5</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Horizontal</enum>
-      </property>
-     </widget>
      <widget class="QLabel" name="label_40">
       <property name="geometry">
        <rect>
@@ -2576,6 +2520,63 @@ background: #FFF;
        <bool>true</bool>
       </property>
      </widget>
+     <widget class="QLabel" name="label_84">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>80</y>
+        <width>5</width>
+        <height>600</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_83">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>200</y>
+        <width>210</width>
+        <height>5</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_82">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>380</y>
+        <width>210</width>
+        <height>5</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="Trithemius_Enc">
      <widget class="QPushButton" name="btnClose_3">
@@ -2602,25 +2603,6 @@ background: #FFF;
       </property>
       <property name="text">
        <string>Back</string>
-      </property>
-     </widget>
-     <widget class="Line" name="line_57">
-      <property name="geometry">
-       <rect>
-        <x>70</x>
-        <y>380</y>
-        <width>211</width>
-        <height>5</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Horizontal</enum>
       </property>
      </widget>
      <widget class="QLabel" name="label_274">
@@ -2843,25 +2825,6 @@ background: #FFF;
       </property>
       <property name="text">
        <string>Mã hóa</string>
-      </property>
-     </widget>
-     <widget class="Line" name="line_58">
-      <property name="geometry">
-       <rect>
-        <x>370</x>
-        <y>60</y>
-        <width>3</width>
-        <height>601</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Vertical</enum>
       </property>
      </widget>
      <widget class="QLabel" name="label_279">
@@ -3238,25 +3201,6 @@ background: #FFF;
        <string>Belasco</string>
       </property>
      </widget>
-     <widget class="Line" name="line_59">
-      <property name="geometry">
-       <rect>
-        <x>70</x>
-        <y>200</y>
-        <width>211</width>
-        <height>5</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Horizontal</enum>
-      </property>
-     </widget>
      <widget class="QLabel" name="label_284">
       <property name="geometry">
        <rect>
@@ -3421,6 +3365,63 @@ background: #FFF;
        <bool>true</bool>
       </property>
      </widget>
+     <widget class="QLabel" name="label_87">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>80</y>
+        <width>5</width>
+        <height>600</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_86">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>200</y>
+        <width>210</width>
+        <height>5</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_85">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>380</y>
+        <width>210</width>
+        <height>5</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="Belasco_Enc">
      <widget class="QLabel" name="label_286">
@@ -3547,25 +3548,6 @@ background: #FFF;
        <string>Trithemius</string>
       </property>
      </widget>
-     <widget class="Line" name="line_60">
-      <property name="geometry">
-       <rect>
-        <x>70</x>
-        <y>200</y>
-        <width>211</width>
-        <height>5</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Horizontal</enum>
-      </property>
-     </widget>
      <widget class="QPushButton" name="MH_Vignere_btn_4">
       <property name="geometry">
        <rect>
@@ -3620,44 +3602,6 @@ background: #FFF;
       </property>
       <property name="text">
        <string>Mở file</string>
-      </property>
-     </widget>
-     <widget class="Line" name="line_61">
-      <property name="geometry">
-       <rect>
-        <x>370</x>
-        <y>60</y>
-        <width>3</width>
-        <height>601</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Vertical</enum>
-      </property>
-     </widget>
-     <widget class="Line" name="line_62">
-      <property name="geometry">
-       <rect>
-        <x>70</x>
-        <y>380</y>
-        <width>211</width>
-        <height>5</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Horizontal</enum>
       </property>
      </widget>
      <widget class="QLabel" name="label_288">
@@ -4350,6 +4294,63 @@ background: #FFF;
        <bool>true</bool>
       </property>
      </widget>
+     <widget class="QLabel" name="label_90">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>80</y>
+        <width>5</width>
+        <height>600</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_89">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>200</y>
+        <width>210</width>
+        <height>5</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_88">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>380</y>
+        <width>210</width>
+        <height>5</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="Hai_Dong_Enc">
      <widget class="QLabel" name="label_441">
@@ -4570,25 +4571,6 @@ line-height: normal;
       </property>
       <property name="alignment">
        <set>Qt::AlignCenter</set>
-      </property>
-     </widget>
-     <widget class="Line" name="line_94">
-      <property name="geometry">
-       <rect>
-        <x>70</x>
-        <y>280</y>
-        <width>211</width>
-        <height>5</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Horizontal</enum>
       </property>
      </widget>
      <widget class="QLabel" name="label_431">
@@ -4816,25 +4798,6 @@ line-height: normal;
        <set>Qt::AlignCenter</set>
       </property>
      </widget>
-     <widget class="Line" name="line_93">
-      <property name="geometry">
-       <rect>
-        <x>370</x>
-        <y>60</y>
-        <width>3</width>
-        <height>601</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Vertical</enum>
-      </property>
-     </widget>
      <widget class="QPushButton" name="MHMotChieu_btn_5">
       <property name="geometry">
        <rect>
@@ -4914,25 +4877,6 @@ line-height: normal;
       </property>
       <property name="alignment">
        <set>Qt::AlignCenter</set>
-      </property>
-     </widget>
-     <widget class="Line" name="line_95">
-      <property name="geometry">
-       <rect>
-        <x>70</x>
-        <y>200</y>
-        <width>211</width>
-        <height>5</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Horizontal</enum>
       </property>
      </widget>
      <widget class="QPushButton" name="MHHienDai_btn_5">
@@ -5148,6 +5092,63 @@ background: #FFF;
        <bool>true</bool>
       </property>
      </widget>
+     <widget class="QLabel" name="label_93">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>80</y>
+        <width>5</width>
+        <height>600</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_91">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>280</y>
+        <width>210</width>
+        <height>5</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_92">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>200</y>
+        <width>210</width>
+        <height>5</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="Nhieu_Dong_Enc">
      <widget class="QPushButton" name="MH_HaiDong_btn_6">
@@ -5349,25 +5350,6 @@ line-height: normal;
       </property>
       <property name="alignment">
        <set>Qt::AlignCenter</set>
-      </property>
-     </widget>
-     <widget class="Line" name="line_111">
-      <property name="geometry">
-       <rect>
-        <x>70</x>
-        <y>280</y>
-        <width>211</width>
-        <height>5</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Horizontal</enum>
       </property>
      </widget>
      <widget class="QPushButton" name="MHXOR_btn_6">
@@ -5637,25 +5619,6 @@ line-height: normal;
        <string>Nhiều Dòng</string>
       </property>
      </widget>
-     <widget class="Line" name="line_112">
-      <property name="geometry">
-       <rect>
-        <x>370</x>
-        <y>60</y>
-        <width>3</width>
-        <height>601</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Vertical</enum>
-      </property>
-     </widget>
      <widget class="QLabel" name="label_508">
       <property name="geometry">
        <rect>
@@ -5880,25 +5843,6 @@ background: #FFF;
        <string>Mã hóa</string>
       </property>
      </widget>
-     <widget class="Line" name="line_113">
-      <property name="geometry">
-       <rect>
-        <x>70</x>
-        <y>200</y>
-        <width>211</width>
-        <height>5</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Horizontal</enum>
-      </property>
-     </widget>
      <widget class="QLabel" name="label_327">
       <property name="geometry">
        <rect>
@@ -6019,6 +5963,63 @@ line-height: normal;
       </property>
       <property name="scaledContents">
        <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_96">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>80</y>
+        <width>5</width>
+        <height>600</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_95">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>200</y>
+        <width>210</width>
+        <height>5</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_94">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>280</y>
+        <width>210</width>
+        <height>5</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
       </property>
      </widget>
     </widget>
@@ -6158,25 +6159,6 @@ background: #FFF;
        <string>Belasco</string>
       </property>
      </widget>
-     <widget class="Line" name="line_115">
-      <property name="geometry">
-       <rect>
-        <x>70</x>
-        <y>200</y>
-        <width>211</width>
-        <height>5</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Horizontal</enum>
-      </property>
-     </widget>
      <widget class="QLabel" name="label_270">
       <property name="geometry">
        <rect>
@@ -6301,44 +6283,6 @@ background: #FFF;
       </property>
       <property name="text">
        <string>Mở file</string>
-      </property>
-     </widget>
-     <widget class="Line" name="line_114">
-      <property name="geometry">
-       <rect>
-        <x>370</x>
-        <y>60</y>
-        <width>3</width>
-        <height>601</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Vertical</enum>
-      </property>
-     </widget>
-     <widget class="Line" name="line_116">
-      <property name="geometry">
-       <rect>
-        <x>70</x>
-        <y>380</y>
-        <width>211</width>
-        <height>5</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Horizontal</enum>
       </property>
      </widget>
      <widget class="QLabel" name="label_518">
@@ -6918,6 +6862,63 @@ line-height: normal;
        <bool>true</bool>
       </property>
      </widget>
+     <widget class="QLabel" name="label_99">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>380</y>
+        <width>210</width>
+        <height>5</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_98">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>200</y>
+        <width>210</width>
+        <height>5</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_97">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>80</y>
+        <width>5</width>
+        <height>600</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="XOR_Vignere_Enc">
      <widget class="QTextEdit" name="txtCiphertext_8">
@@ -7187,44 +7188,6 @@ line-height: normal;
       </property>
       <property name="text">
        <string>Key:</string>
-      </property>
-     </widget>
-     <widget class="Line" name="line_118">
-      <property name="geometry">
-       <rect>
-        <x>70</x>
-        <y>200</y>
-        <width>211</width>
-        <height>5</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Horizontal</enum>
-      </property>
-     </widget>
-     <widget class="Line" name="line_119">
-      <property name="geometry">
-       <rect>
-        <x>370</x>
-        <y>60</y>
-        <width>3</width>
-        <height>601</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Vertical</enum>
       </property>
      </widget>
      <widget class="QLabel" name="label_523">
@@ -7652,25 +7615,6 @@ line-height: normal;
        <string>Nội dung đã mã hóa</string>
       </property>
      </widget>
-     <widget class="Line" name="line_117">
-      <property name="geometry">
-       <rect>
-        <x>70</x>
-        <y>380</y>
-        <width>211</width>
-        <height>5</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Horizontal</enum>
-      </property>
-     </widget>
      <widget class="QLabel" name="label_526">
       <property name="geometry">
        <rect>
@@ -7845,6 +7789,63 @@ background: #FFF;
       </property>
       <property name="scaledContents">
        <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_102">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>380</y>
+        <width>210</width>
+        <height>5</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_101">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>200</y>
+        <width>210</width>
+        <height>5</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_100">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>80</y>
+        <width>5</width>
+        <height>600</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
       </property>
      </widget>
     </widget>
@@ -8027,44 +8028,6 @@ background: #FFF;
       </property>
       <property name="text">
        <string>Lưu file</string>
-      </property>
-     </widget>
-     <widget class="Line" name="line_120">
-      <property name="geometry">
-       <rect>
-        <x>370</x>
-        <y>60</y>
-        <width>3</width>
-        <height>601</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Vertical</enum>
-      </property>
-     </widget>
-     <widget class="Line" name="line_121">
-      <property name="geometry">
-       <rect>
-        <x>70</x>
-        <y>380</y>
-        <width>211</width>
-        <height>5</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Horizontal</enum>
       </property>
      </widget>
      <widget class="QPushButton" name="btnClose_9">
@@ -8423,25 +8386,6 @@ line-height: normal;
        <set>Qt::AlignCenter</set>
       </property>
      </widget>
-     <widget class="Line" name="line_122">
-      <property name="geometry">
-       <rect>
-        <x>70</x>
-        <y>200</y>
-        <width>211</width>
-        <height>5</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Horizontal</enum>
-      </property>
-     </widget>
      <widget class="QPushButton" name="MH_Ceasar_btn_9">
       <property name="geometry">
        <rect>
@@ -8692,6 +8636,63 @@ color: #1AF5B9;
        <bool>true</bool>
       </property>
      </widget>
+     <widget class="QLabel" name="label_105">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>380</y>
+        <width>210</width>
+        <height>5</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_104">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>200</y>
+        <width>210</width>
+        <height>5</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_103">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>80</y>
+        <width>5</width>
+        <height>600</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="XOR_Belasco_Enc">
      <widget class="QLabel" name="label_561">
@@ -8752,25 +8753,6 @@ background: #FFF;
       </property>
       <property name="text">
        <string>Thay Thế</string>
-      </property>
-     </widget>
-     <widget class="Line" name="line_123">
-      <property name="geometry">
-       <rect>
-        <x>70</x>
-        <y>200</y>
-        <width>211</width>
-        <height>5</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Horizontal</enum>
       </property>
      </widget>
      <widget class="QPushButton" name="MHMotChieu_btn_10">
@@ -9154,25 +9136,6 @@ background: #FFF;
        <string>Vignere</string>
       </property>
      </widget>
-     <widget class="Line" name="line_125">
-      <property name="geometry">
-       <rect>
-        <x>70</x>
-        <y>380</y>
-        <width>211</width>
-        <height>5</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Horizontal</enum>
-      </property>
-     </widget>
      <widget class="QPushButton" name="btnClose_10">
       <property name="geometry">
        <rect>
@@ -9258,25 +9221,6 @@ line-height: normal;
       </property>
       <property name="text">
        <string>Key:</string>
-      </property>
-     </widget>
-     <widget class="Line" name="line_124">
-      <property name="geometry">
-       <rect>
-        <x>370</x>
-        <y>60</y>
-        <width>3</width>
-        <height>601</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Vertical</enum>
       </property>
      </widget>
      <widget class="QPushButton" name="btnMaHoa_10">
@@ -9621,6 +9565,63 @@ line-height: normal;
        <bool>true</bool>
       </property>
      </widget>
+     <widget class="QLabel" name="label_108">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>380</y>
+        <width>210</width>
+        <height>5</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_107">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>200</y>
+        <width>210</width>
+        <height>5</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_106">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>80</y>
+        <width>5</width>
+        <height>600</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="AES_Enc">
      <widget class="QLabel" name="label_577">
@@ -9662,7 +9663,7 @@ line-height: normal;
       <property name="geometry">
        <rect>
         <x>70</x>
-        <y>410</y>
+        <y>420</y>
         <width>211</width>
         <height>31</height>
        </rect>
@@ -9718,7 +9719,7 @@ background: #FFF;
       <property name="geometry">
        <rect>
         <x>70</x>
-        <y>460</y>
+        <y>470</y>
         <width>211</width>
         <height>31</height>
        </rect>
@@ -9746,7 +9747,7 @@ background: #FFF;
       <property name="geometry">
        <rect>
         <x>70</x>
-        <y>510</y>
+        <y>520</y>
         <width>211</width>
         <height>31</height>
        </rect>
@@ -9768,25 +9769,6 @@ background: #FFF;
       </property>
       <property name="text">
        <string>XOR</string>
-      </property>
-     </widget>
-     <widget class="Line" name="line_127">
-      <property name="geometry">
-       <rect>
-        <x>70</x>
-        <y>320</y>
-        <width>211</width>
-        <height>5</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Horizontal</enum>
       </property>
      </widget>
      <widget class="QLabel" name="label_568">
@@ -9820,25 +9802,6 @@ line-height: normal;
       </property>
       <property name="text">
        <string>Nội dung đã mã hóa</string>
-      </property>
-     </widget>
-     <widget class="Line" name="line_128">
-      <property name="geometry">
-       <rect>
-        <x>70</x>
-        <y>200</y>
-        <width>211</width>
-        <height>5</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Horizontal</enum>
       </property>
      </widget>
      <widget class="QLabel" name="label_567">
@@ -9906,25 +9869,6 @@ line-height: normal;
       </property>
       <property name="text">
        <string>Nội dung cần mã hóa</string>
-      </property>
-     </widget>
-     <widget class="Line" name="line_126">
-      <property name="geometry">
-       <rect>
-        <x>370</x>
-        <y>60</y>
-        <width>3</width>
-        <height>601</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Vertical</enum>
       </property>
      </widget>
      <widget class="QPushButton" name="btnSaveFile_11">
@@ -10208,7 +10152,7 @@ line-height: normal;
       <property name="geometry">
        <rect>
         <x>70</x>
-        <y>560</y>
+        <y>570</y>
         <width>211</width>
         <height>31</height>
        </rect>
@@ -10294,7 +10238,7 @@ background: #FFF;
       <property name="geometry">
        <rect>
         <x>50</x>
-        <y>350</y>
+        <y>360</y>
         <width>251</width>
         <height>41</height>
        </rect>
@@ -10438,6 +10382,63 @@ background: #FFF;
        <bool>true</bool>
       </property>
      </widget>
+     <widget class="QLabel" name="label_109">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>80</y>
+        <width>5</width>
+        <height>600</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_110">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>200</y>
+        <width>210</width>
+        <height>5</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_111">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>330</y>
+        <width>210</width>
+        <height>5</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="RSA_Enc">
      <widget class="QPushButton" name="btnOpenFile_12">
@@ -10500,7 +10501,7 @@ background: #FFF;
       <property name="geometry">
        <rect>
         <x>70</x>
-        <y>410</y>
+        <y>420</y>
         <width>211</width>
         <height>31</height>
        </rect>
@@ -10528,7 +10529,7 @@ background: #FFF;
       <property name="geometry">
        <rect>
         <x>70</x>
-        <y>510</y>
+        <y>520</y>
         <width>211</width>
         <height>31</height>
        </rect>
@@ -10654,7 +10655,7 @@ line-height: normal;
       <property name="geometry">
        <rect>
         <x>70</x>
-        <y>560</y>
+        <y>570</y>
         <width>211</width>
         <height>31</height>
        </rect>
@@ -10824,25 +10825,6 @@ line-height: normal;
        <set>Qt::AlignCenter</set>
       </property>
      </widget>
-     <widget class="Line" name="line_130">
-      <property name="geometry">
-       <rect>
-        <x>70</x>
-        <y>200</y>
-        <width>211</width>
-        <height>5</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Horizontal</enum>
-      </property>
-     </widget>
      <widget class="QLabel" name="label_586">
       <property name="geometry">
        <rect>
@@ -10948,25 +10930,6 @@ line-height: normal;
        <set>Qt::AlignCenter</set>
       </property>
      </widget>
-     <widget class="Line" name="line_129">
-      <property name="geometry">
-       <rect>
-        <x>70</x>
-        <y>320</y>
-        <width>211</width>
-        <height>5</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Horizontal</enum>
-      </property>
-     </widget>
      <widget class="QPushButton" name="MH_SDES_btn_12">
       <property name="geometry">
        <rect>
@@ -10993,25 +10956,6 @@ background: #FFF;
       </property>
       <property name="text">
        <string>SDES</string>
-      </property>
-     </widget>
-     <widget class="Line" name="line_131">
-      <property name="geometry">
-       <rect>
-        <x>370</x>
-        <y>60</y>
-        <width>3</width>
-        <height>601</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Vertical</enum>
       </property>
      </widget>
      <widget class="QLabel" name="label_589">
@@ -11098,7 +11042,7 @@ color:#FFFFFF;
       <property name="geometry">
        <rect>
         <x>50</x>
-        <y>350</y>
+        <y>360</y>
         <width>251</width>
         <height>41</height>
        </rect>
@@ -11133,7 +11077,7 @@ line-height: normal;
       <property name="geometry">
        <rect>
         <x>70</x>
-        <y>460</y>
+        <y>470</y>
         <width>211</width>
         <height>31</height>
        </rect>
@@ -11255,13 +11199,70 @@ line-height: normal;
        <bool>true</bool>
       </property>
      </widget>
+     <widget class="QLabel" name="label_114">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>330</y>
+        <width>210</width>
+        <height>5</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_113">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>200</y>
+        <width>210</width>
+        <height>5</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_112">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>80</y>
+        <width>5</width>
+        <height>600</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="SDES_Enc">
      <widget class="QPushButton" name="MHThayThe_btn_13">
       <property name="geometry">
        <rect>
         <x>70</x>
-        <y>410</y>
+        <y>420</y>
         <width>211</width>
         <height>31</height>
        </rect>
@@ -11285,30 +11286,11 @@ background: #FFF;
        <string>Thay Thế</string>
       </property>
      </widget>
-     <widget class="Line" name="line_132">
-      <property name="geometry">
-       <rect>
-        <x>70</x>
-        <y>200</y>
-        <width>211</width>
-        <height>5</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Horizontal</enum>
-      </property>
-     </widget>
      <widget class="QPushButton" name="MHMotChieu_btn_13">
       <property name="geometry">
        <rect>
         <x>70</x>
-        <y>560</y>
+        <y>570</y>
         <width>211</width>
         <height>31</height>
        </rect>
@@ -11336,7 +11318,7 @@ background: #FFF;
       <property name="geometry">
        <rect>
         <x>70</x>
-        <y>510</y>
+        <y>520</y>
         <width>211</width>
         <height>31</height>
        </rect>
@@ -11399,7 +11381,7 @@ line-height: normal;
       <property name="geometry">
        <rect>
         <x>50</x>
-        <y>350</y>
+        <y>360</y>
         <width>251</width>
         <height>41</height>
        </rect>
@@ -11484,7 +11466,7 @@ line-height: normal;
       <property name="geometry">
        <rect>
         <x>70</x>
-        <y>460</y>
+        <y>470</y>
         <width>211</width>
         <height>31</height>
        </rect>
@@ -11685,25 +11667,6 @@ background: #FFF;
        <string>RSA</string>
       </property>
      </widget>
-     <widget class="Line" name="line_133">
-      <property name="geometry">
-       <rect>
-        <x>70</x>
-        <y>320</y>
-        <width>211</width>
-        <height>5</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Horizontal</enum>
-      </property>
-     </widget>
      <widget class="QPushButton" name="btnClose_13">
       <property name="geometry">
        <rect>
@@ -11817,25 +11780,6 @@ background: #FFF;
       </property>
       <property name="text">
        <string>Mã hóa</string>
-      </property>
-     </widget>
-     <widget class="Line" name="line_134">
-      <property name="geometry">
-       <rect>
-        <x>370</x>
-        <y>60</y>
-        <width>3</width>
-        <height>601</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Vertical</enum>
       </property>
      </widget>
      <widget class="QLabel" name="label_599">
@@ -12154,6 +12098,63 @@ line-height: normal;
       </property>
       <property name="scaledContents">
        <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_117">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>330</y>
+        <width>210</width>
+        <height>5</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_116">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>200</y>
+        <width>210</width>
+        <height>5</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_115">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>80</y>
+        <width>5</width>
+        <height>600</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
       </property>
      </widget>
     </widget>
@@ -12503,25 +12504,6 @@ line-height: normal;
        <set>Qt::AlignCenter</set>
       </property>
      </widget>
-     <widget class="Line" name="line_137">
-      <property name="geometry">
-       <rect>
-        <x>370</x>
-        <y>60</y>
-        <width>3</width>
-        <height>601</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Vertical</enum>
-      </property>
-     </widget>
      <widget class="QTextEdit" name="txtPlaintext_14">
       <property name="geometry">
        <rect>
@@ -12567,25 +12549,6 @@ color: #1AF5B9;
       </property>
       <property name="alignment">
        <set>Qt::AlignCenter</set>
-      </property>
-     </widget>
-     <widget class="Line" name="line_135">
-      <property name="geometry">
-       <rect>
-        <x>70</x>
-        <y>330</y>
-        <width>211</width>
-        <height>5</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Horizontal</enum>
       </property>
      </widget>
      <widget class="QPushButton" name="MHChuyenVi_btn_14">
@@ -12827,25 +12790,6 @@ line-height: normal;
        <string>SHA 3</string>
       </property>
      </widget>
-     <widget class="Line" name="line_136">
-      <property name="geometry">
-       <rect>
-        <x>70</x>
-        <y>200</y>
-        <width>211</width>
-        <height>5</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Horizontal</enum>
-      </property>
-     </widget>
      <widget class="QPushButton" name="MH_SHA256_btn_14">
       <property name="geometry">
        <rect>
@@ -12973,6 +12917,63 @@ background: #FFF;
        <bool>true</bool>
       </property>
      </widget>
+     <widget class="QLabel" name="label_118">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>80</y>
+        <width>5</width>
+        <height>600</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_119">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>200</y>
+        <width>210</width>
+        <height>5</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_120">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>330</y>
+        <width>210</width>
+        <height>5</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="SHA256_Enc">
      <widget class="QPushButton" name="btnClose_15">
@@ -13055,25 +13056,6 @@ background: #FFF;
       </property>
       <property name="text">
        <string>Lưu file</string>
-      </property>
-     </widget>
-     <widget class="Line" name="line_139">
-      <property name="geometry">
-       <rect>
-        <x>70</x>
-        <y>330</y>
-        <width>211</width>
-        <height>5</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Horizontal</enum>
       </property>
      </widget>
      <widget class="QPushButton" name="MHThayThe_btn_15">
@@ -13323,25 +13305,6 @@ line-height: normal;
       </property>
       <property name="alignment">
        <set>Qt::AlignCenter</set>
-      </property>
-     </widget>
-     <widget class="Line" name="line_138">
-      <property name="geometry">
-       <rect>
-        <x>370</x>
-        <y>60</y>
-        <width>3</width>
-        <height>601</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Vertical</enum>
       </property>
      </widget>
      <widget class="QLabel" name="label_627">
@@ -13733,25 +13696,6 @@ line-height: normal;
        <string>SHA 256</string>
       </property>
      </widget>
-     <widget class="Line" name="line_140">
-      <property name="geometry">
-       <rect>
-        <x>70</x>
-        <y>200</y>
-        <width>211</width>
-        <height>5</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Horizontal</enum>
-      </property>
-     </widget>
      <widget class="QLabel" name="label_822">
       <property name="geometry">
        <rect>
@@ -13790,65 +13734,65 @@ background-color:#01C38E;
        <bool>true</bool>
       </property>
      </widget>
-    </widget>
-    <widget class="QWidget" name="MD5_Enc">
-     <widget class="Line" name="line_143">
+     <widget class="QLabel" name="label_121">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>80</y>
+        <width>5</width>
+        <height>600</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_122">
       <property name="geometry">
        <rect>
         <x>70</x>
         <y>200</y>
-        <width>211</width>
+        <width>210</width>
         <height>5</height>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">Line{
+       <string notr="true">QLabel{
 border-radius: 1px;
 background-color:#01C38E;
 }</string>
       </property>
-      <property name="orientation">
-       <enum>Qt::Horizontal</enum>
+      <property name="text">
+       <string/>
       </property>
      </widget>
-     <widget class="Line" name="line_141">
+     <widget class="QLabel" name="label_123">
       <property name="geometry">
        <rect>
         <x>70</x>
         <y>330</y>
-        <width>211</width>
+        <width>210</width>
         <height>5</height>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">Line{
+       <string notr="true">QLabel{
 border-radius: 1px;
 background-color:#01C38E;
 }</string>
       </property>
-      <property name="orientation">
-       <enum>Qt::Horizontal</enum>
+      <property name="text">
+       <string/>
       </property>
      </widget>
-     <widget class="Line" name="line_142">
-      <property name="geometry">
-       <rect>
-        <x>370</x>
-        <y>60</y>
-        <width>3</width>
-        <height>601</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Vertical</enum>
-      </property>
-     </widget>
+    </widget>
+    <widget class="QWidget" name="MD5_Enc">
      <widget class="QLabel" name="label_633">
       <property name="geometry">
        <rect>
@@ -14607,6 +14551,63 @@ line-height: normal;
        <bool>true</bool>
       </property>
      </widget>
+     <widget class="QLabel" name="label_124">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>80</y>
+        <width>5</width>
+        <height>600</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_125">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>200</y>
+        <width>210</width>
+        <height>5</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_126">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>330</y>
+        <width>210</width>
+        <height>5</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="Two_Fish_Enc"/>
     <widget class="QWidget" name="Ceasar_Dec">
@@ -14811,25 +14812,6 @@ background-color:#1A1E29;
 border: 2px solid #01C38E;
 color:#FFFFFF;
 }</string>
-      </property>
-     </widget>
-     <widget class="Line" name="line_13">
-      <property name="geometry">
-       <rect>
-        <x>70</x>
-        <y>200</y>
-        <width>211</width>
-        <height>5</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Horizontal</enum>
       </property>
      </widget>
      <widget class="QPushButton" name="GMHienDai_btn_18">
@@ -15183,25 +15165,6 @@ line-height: normal;
        <set>Qt::AlignCenter</set>
       </property>
      </widget>
-     <widget class="Line" name="line_12">
-      <property name="geometry">
-       <rect>
-        <x>370</x>
-        <y>60</y>
-        <width>3</width>
-        <height>601</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Vertical</enum>
-      </property>
-     </widget>
      <widget class="QLabel" name="label_57">
       <property name="geometry">
        <rect>
@@ -15278,25 +15241,6 @@ background: #FFF;
       </property>
       <property name="text">
        <string>Giải mã</string>
-      </property>
-     </widget>
-     <widget class="Line" name="line_14">
-      <property name="geometry">
-       <rect>
-        <x>70</x>
-        <y>380</y>
-        <width>211</width>
-        <height>5</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Horizontal</enum>
       </property>
      </widget>
      <widget class="QLabel" name="label_55">
@@ -15477,6 +15421,63 @@ line-height: normal;
        <bool>true</bool>
       </property>
      </widget>
+     <widget class="QLabel" name="label_127">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>80</y>
+        <width>5</width>
+        <height>600</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_128">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>200</y>
+        <width>210</width>
+        <height>5</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_129">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>380</y>
+        <width>210</width>
+        <height>5</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="Vignere_Dec">
      <widget class="QTextEdit" name="txtVanBanGoc_19">
@@ -15527,25 +15528,6 @@ line-height: normal;
       </property>
       <property name="text">
        <string>Nội dung cần giải mã</string>
-      </property>
-     </widget>
-     <widget class="Line" name="line_9">
-      <property name="geometry">
-       <rect>
-        <x>70</x>
-        <y>380</y>
-        <width>211</width>
-        <height>5</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Horizontal</enum>
       </property>
      </widget>
      <widget class="QLabel" name="label_46">
@@ -16122,25 +16104,6 @@ line-height: normal;
        <set>Qt::AlignCenter</set>
       </property>
      </widget>
-     <widget class="Line" name="line_10">
-      <property name="geometry">
-       <rect>
-        <x>70</x>
-        <y>200</y>
-        <width>211</width>
-        <height>5</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Horizontal</enum>
-      </property>
-     </widget>
      <widget class="QLabel" name="label_48">
       <property name="geometry">
        <rect>
@@ -16237,25 +16200,6 @@ line-height: normal;
       </property>
       <property name="alignment">
        <set>Qt::AlignCenter</set>
-      </property>
-     </widget>
-     <widget class="Line" name="line_11">
-      <property name="geometry">
-       <rect>
-        <x>370</x>
-        <y>60</y>
-        <width>3</width>
-        <height>601</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Vertical</enum>
       </property>
      </widget>
      <widget class="QPushButton" name="btnClose_19">
@@ -16376,6 +16320,63 @@ background: #FFF;
       </property>
       <property name="scaledContents">
        <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_132">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>200</y>
+        <width>210</width>
+        <height>5</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_130">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>380</y>
+        <width>210</width>
+        <height>5</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_131">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>80</y>
+        <width>5</width>
+        <height>600</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
       </property>
      </widget>
     </widget>
@@ -16510,25 +16511,6 @@ background: #FFF;
        <string>Giải mã</string>
       </property>
      </widget>
-     <widget class="Line" name="line_68">
-      <property name="geometry">
-       <rect>
-        <x>70</x>
-        <y>200</y>
-        <width>211</width>
-        <height>5</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Horizontal</enum>
-      </property>
-     </widget>
      <widget class="QLabel" name="label_316">
       <property name="geometry">
        <rect>
@@ -16560,25 +16542,6 @@ line-height: normal;
       </property>
       <property name="text">
        <string>Nội dung đã giải mã</string>
-      </property>
-     </widget>
-     <widget class="Line" name="line_66">
-      <property name="geometry">
-       <rect>
-        <x>370</x>
-        <y>60</y>
-        <width>3</width>
-        <height>601</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Vertical</enum>
       </property>
      </widget>
      <widget class="QPushButton" name="GM_Vignere_btn_20">
@@ -16677,25 +16640,6 @@ line-height: normal;
       </property>
       <property name="alignment">
        <set>Qt::AlignCenter</set>
-      </property>
-     </widget>
-     <widget class="Line" name="line_67">
-      <property name="geometry">
-       <rect>
-        <x>70</x>
-        <y>380</y>
-        <width>211</width>
-        <height>5</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Horizontal</enum>
       </property>
      </widget>
      <widget class="QTextEdit" name="txtCiphertext_20">
@@ -17195,6 +17139,63 @@ line-height: normal;
        <bool>true</bool>
       </property>
      </widget>
+     <widget class="QLabel" name="label_133">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>200</y>
+        <width>210</width>
+        <height>5</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_134">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>80</y>
+        <width>5</width>
+        <height>600</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_135">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>380</y>
+        <width>210</width>
+        <height>5</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="Belasco_Dec">
      <widget class="QLabel" name="label_313">
@@ -17621,44 +17622,6 @@ color: #1AF5B9;
        <set>Qt::AlignCenter</set>
       </property>
      </widget>
-     <widget class="Line" name="line_63">
-      <property name="geometry">
-       <rect>
-        <x>370</x>
-        <y>60</y>
-        <width>3</width>
-        <height>601</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Vertical</enum>
-      </property>
-     </widget>
-     <widget class="Line" name="line_64">
-      <property name="geometry">
-       <rect>
-        <x>70</x>
-        <y>380</y>
-        <width>211</width>
-        <height>5</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Horizontal</enum>
-      </property>
-     </widget>
      <widget class="QLabel" name="label_309">
       <property name="geometry">
        <rect>
@@ -18039,25 +18002,6 @@ background: #FFF;
        <string>XOR</string>
       </property>
      </widget>
-     <widget class="Line" name="line_65">
-      <property name="geometry">
-       <rect>
-        <x>70</x>
-        <y>200</y>
-        <width>211</width>
-        <height>5</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Horizontal</enum>
-      </property>
-     </widget>
      <widget class="QLabel" name="label_834">
       <property name="geometry">
        <rect>
@@ -18094,6 +18038,63 @@ background-color:#01C38E;
       </property>
       <property name="scaledContents">
        <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_159">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>380</y>
+        <width>210</width>
+        <height>5</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_158">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>200</y>
+        <width>210</width>
+        <height>5</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_157">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>80</y>
+        <width>5</width>
+        <height>600</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
       </property>
      </widget>
     </widget>
@@ -18339,44 +18340,6 @@ line-height: normal;
       </property>
       <property name="alignment">
        <set>Qt::AlignCenter</set>
-      </property>
-     </widget>
-     <widget class="Line" name="line_148">
-      <property name="geometry">
-       <rect>
-        <x>370</x>
-        <y>60</y>
-        <width>3</width>
-        <height>601</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Vertical</enum>
-      </property>
-     </widget>
-     <widget class="Line" name="line_149">
-      <property name="geometry">
-       <rect>
-        <x>70</x>
-        <y>200</y>
-        <width>211</width>
-        <height>5</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Horizontal</enum>
       </property>
      </widget>
      <widget class="QLabel" name="label_654">
@@ -18701,25 +18664,6 @@ background: #FFF;
        <string>Back</string>
       </property>
      </widget>
-     <widget class="Line" name="line_147">
-      <property name="geometry">
-       <rect>
-        <x>70</x>
-        <y>280</y>
-        <width>211</width>
-        <height>5</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Horizontal</enum>
-      </property>
-     </widget>
      <widget class="QLabel" name="label_655">
       <property name="geometry">
        <rect>
@@ -18857,27 +18801,65 @@ line-height: normal;
        <bool>true</bool>
       </property>
      </widget>
-    </widget>
-    <widget class="QWidget" name="Nhieu_Dong_Dec">
-     <widget class="Line" name="line_152">
+     <widget class="QLabel" name="label_160">
       <property name="geometry">
        <rect>
-        <x>70</x>
-        <y>200</y>
-        <width>211</width>
-        <height>5</height>
+        <x>370</x>
+        <y>80</y>
+        <width>5</width>
+        <height>600</height>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">Line{
+       <string notr="true">QLabel{
 border-radius: 1px;
 background-color:#01C38E;
 }</string>
       </property>
-      <property name="orientation">
-       <enum>Qt::Horizontal</enum>
+      <property name="text">
+       <string/>
       </property>
      </widget>
+     <widget class="QLabel" name="label_161">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>200</y>
+        <width>210</width>
+        <height>5</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_162">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>280</y>
+        <width>210</width>
+        <height>5</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Nhieu_Dong_Dec">
      <widget class="QLabel" name="label_677">
       <property name="geometry">
        <rect>
@@ -19169,25 +19151,6 @@ line-height: normal;
        <set>Qt::AlignCenter</set>
       </property>
      </widget>
-     <widget class="Line" name="line_150">
-      <property name="geometry">
-       <rect>
-        <x>70</x>
-        <y>280</y>
-        <width>211</width>
-        <height>5</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Horizontal</enum>
-      </property>
-     </widget>
      <widget class="QPushButton" name="GMXOR_btn_23">
       <property name="geometry">
        <rect>
@@ -19319,25 +19282,6 @@ line-height: normal;
       </property>
       <property name="alignment">
        <set>Qt::AlignCenter</set>
-      </property>
-     </widget>
-     <widget class="Line" name="line_151">
-      <property name="geometry">
-       <rect>
-        <x>370</x>
-        <y>60</y>
-        <width>3</width>
-        <height>601</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Vertical</enum>
       </property>
      </widget>
      <widget class="QPushButton" name="btnSaveFile_23">
@@ -19702,6 +19646,120 @@ line-height: normal;
        <string>( Số phần tử của n )</string>
       </property>
      </widget>
+     <widget class="QLabel" name="label_138">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>280</y>
+        <width>210</width>
+        <height>5</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_137">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>80</y>
+        <width>5</width>
+        <height>600</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_136">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>200</y>
+        <width>210</width>
+        <height>5</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_163">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>80</y>
+        <width>5</width>
+        <height>600</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_164">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>200</y>
+        <width>210</width>
+        <height>5</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_165">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>280</y>
+        <width>210</width>
+        <height>5</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="XOR_Ceasar_Dec">
      <widget class="QLabel" name="label_690">
@@ -19852,44 +19910,6 @@ background: #FFF;
       </property>
       <property name="text">
        <string>Back</string>
-      </property>
-     </widget>
-     <widget class="Line" name="line_154">
-      <property name="geometry">
-       <rect>
-        <x>370</x>
-        <y>60</y>
-        <width>3</width>
-        <height>601</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Vertical</enum>
-      </property>
-     </widget>
-     <widget class="Line" name="line_153">
-      <property name="geometry">
-       <rect>
-        <x>70</x>
-        <y>200</y>
-        <width>211</width>
-        <height>5</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Horizontal</enum>
       </property>
      </widget>
      <widget class="QLabel" name="label_686">
@@ -20419,25 +20439,6 @@ background: #FFF;
        <string>Belasco</string>
       </property>
      </widget>
-     <widget class="Line" name="line_155">
-      <property name="geometry">
-       <rect>
-        <x>70</x>
-        <y>380</y>
-        <width>211</width>
-        <height>5</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Horizontal</enum>
-      </property>
-     </widget>
      <widget class="QLabel" name="label_684">
       <property name="geometry">
        <rect>
@@ -20569,6 +20570,63 @@ background: #FFF;
       </property>
       <property name="scaledContents">
        <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_166">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>80</y>
+        <width>5</width>
+        <height>600</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_167">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>200</y>
+        <width>210</width>
+        <height>5</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_168">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>380</y>
+        <width>210</width>
+        <height>5</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
       </property>
      </widget>
     </widget>
@@ -20788,25 +20846,6 @@ line-height: normal;
        <set>Qt::AlignCenter</set>
       </property>
      </widget>
-     <widget class="Line" name="line_157">
-      <property name="geometry">
-       <rect>
-        <x>370</x>
-        <y>60</y>
-        <width>3</width>
-        <height>601</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Vertical</enum>
-      </property>
-     </widget>
      <widget class="QPushButton" name="btnClose_25">
       <property name="geometry">
        <rect>
@@ -20884,25 +20923,6 @@ background-color:#1A1E29;
 border: 2px solid #01C38E;
 color:#FFFFFF;
 }</string>
-      </property>
-     </widget>
-     <widget class="Line" name="line_156">
-      <property name="geometry">
-       <rect>
-        <x>70</x>
-        <y>200</y>
-        <width>211</width>
-        <height>5</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Horizontal</enum>
       </property>
      </widget>
      <widget class="QLabel" name="label_698">
@@ -21078,25 +21098,6 @@ background: #FFF;
       </property>
       <property name="text">
        <string>Ceasar</string>
-      </property>
-     </widget>
-     <widget class="Line" name="line_158">
-      <property name="geometry">
-       <rect>
-        <x>70</x>
-        <y>380</y>
-        <width>211</width>
-        <height>5</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Horizontal</enum>
       </property>
      </widget>
      <widget class="QLabel" name="label_703">
@@ -21472,6 +21473,120 @@ background: #FFF;
        <bool>true</bool>
       </property>
      </widget>
+     <widget class="QLabel" name="label_139">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>200</y>
+        <width>210</width>
+        <height>5</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_140">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>80</y>
+        <width>5</width>
+        <height>600</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_141">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>380</y>
+        <width>210</width>
+        <height>5</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_169">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>80</y>
+        <width>5</width>
+        <height>600</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_170">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>380</y>
+        <width>210</width>
+        <height>5</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_171">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>200</y>
+        <width>210</width>
+        <height>5</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="XOR_Trithemius_Dec">
      <widget class="QTextEdit" name="txtVanBanGoc_26">
@@ -21835,25 +21950,6 @@ line-height: normal;
        <set>Qt::AlignCenter</set>
       </property>
      </widget>
-     <widget class="Line" name="line_159">
-      <property name="geometry">
-       <rect>
-        <x>370</x>
-        <y>60</y>
-        <width>3</width>
-        <height>601</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Vertical</enum>
-      </property>
-     </widget>
      <widget class="QPushButton" name="btnOpenFile_26">
       <property name="geometry">
        <rect>
@@ -22037,25 +22133,6 @@ line-height: normal;
        <set>Qt::AlignCenter</set>
       </property>
      </widget>
-     <widget class="Line" name="line_160">
-      <property name="geometry">
-       <rect>
-        <x>70</x>
-        <y>380</y>
-        <width>211</width>
-        <height>5</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Horizontal</enum>
-      </property>
-     </widget>
      <widget class="QLabel" name="label_716">
       <property name="geometry">
        <rect>
@@ -22114,25 +22191,6 @@ background: #FFF;
       </property>
       <property name="text">
        <string>Ceasar</string>
-      </property>
-     </widget>
-     <widget class="Line" name="line_161">
-      <property name="geometry">
-       <rect>
-        <x>70</x>
-        <y>200</y>
-        <width>211</width>
-        <height>5</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Horizontal</enum>
       </property>
      </widget>
      <widget class="QLabel" name="label_715">
@@ -22289,6 +22347,120 @@ line-height: normal;
        <bool>true</bool>
       </property>
      </widget>
+     <widget class="QLabel" name="label_142">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>200</y>
+        <width>210</width>
+        <height>5</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_143">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>80</y>
+        <width>5</width>
+        <height>600</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_144">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>380</y>
+        <width>210</width>
+        <height>5</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_172">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>80</y>
+        <width>5</width>
+        <height>600</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_173">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>380</y>
+        <width>210</width>
+        <height>5</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_174">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>200</y>
+        <width>210</width>
+        <height>5</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="XOR_Belasco_Dec">
      <widget class="QLabel" name="label_734">
@@ -22356,25 +22528,6 @@ line-height: normal;
       </property>
       <property name="alignment">
        <set>Qt::AlignCenter</set>
-      </property>
-     </widget>
-     <widget class="Line" name="line_164">
-      <property name="geometry">
-       <rect>
-        <x>370</x>
-        <y>60</y>
-        <width>3</width>
-        <height>601</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Vertical</enum>
       </property>
      </widget>
      <widget class="QLabel" name="label_733">
@@ -22855,44 +23008,6 @@ background: #FFF;
        <string>Vignere</string>
       </property>
      </widget>
-     <widget class="Line" name="line_163">
-      <property name="geometry">
-       <rect>
-        <x>70</x>
-        <y>380</y>
-        <width>211</width>
-        <height>5</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Horizontal</enum>
-      </property>
-     </widget>
-     <widget class="Line" name="line_162">
-      <property name="geometry">
-       <rect>
-        <x>70</x>
-        <y>200</y>
-        <width>211</width>
-        <height>5</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Horizontal</enum>
-      </property>
-     </widget>
      <widget class="QPushButton" name="btnClose_27">
       <property name="geometry">
        <rect>
@@ -23190,6 +23305,120 @@ line-height: normal;
        <bool>true</bool>
       </property>
      </widget>
+     <widget class="QLabel" name="label_145">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>200</y>
+        <width>210</width>
+        <height>5</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_146">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>80</y>
+        <width>5</width>
+        <height>600</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_147">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>380</y>
+        <width>210</width>
+        <height>5</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_175">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>80</y>
+        <width>5</width>
+        <height>600</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_176">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>380</y>
+        <width>210</width>
+        <height>5</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_177">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>200</y>
+        <width>210</width>
+        <height>5</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="AES_Dec">
      <widget class="QPushButton" name="btnOpenFile_28">
@@ -23224,7 +23453,7 @@ background: #FFF;
       <property name="geometry">
        <rect>
         <x>70</x>
-        <y>460</y>
+        <y>470</y>
         <width>211</width>
         <height>31</height>
        </rect>
@@ -23302,25 +23531,6 @@ background: #FFF;
       </property>
       <property name="text">
        <string>Lưu file</string>
-      </property>
-     </widget>
-     <widget class="Line" name="line_166">
-      <property name="geometry">
-       <rect>
-        <x>70</x>
-        <y>200</y>
-        <width>211</width>
-        <height>5</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Horizontal</enum>
       </property>
      </widget>
      <widget class="QTextEdit" name="txtVanBanGoc_28">
@@ -23553,25 +23763,6 @@ background: #FFF;
        <string>SDES</string>
       </property>
      </widget>
-     <widget class="Line" name="line_167">
-      <property name="geometry">
-       <rect>
-        <x>370</x>
-        <y>60</y>
-        <width>3</width>
-        <height>601</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Vertical</enum>
-      </property>
-     </widget>
      <widget class="QLabel" name="label_742">
       <property name="geometry">
        <rect>
@@ -23643,7 +23834,7 @@ line-height: normal;
       <property name="geometry">
        <rect>
         <x>70</x>
-        <y>510</y>
+        <y>520</y>
         <width>211</width>
         <height>31</height>
        </rect>
@@ -23798,25 +23989,6 @@ line-height: normal;
        <string>Nội dung đã giải mã</string>
       </property>
      </widget>
-     <widget class="Line" name="line_165">
-      <property name="geometry">
-       <rect>
-        <x>70</x>
-        <y>320</y>
-        <width>211</width>
-        <height>5</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Horizontal</enum>
-      </property>
-     </widget>
      <widget class="QLabel" name="label_739">
       <property name="geometry">
        <rect>
@@ -23856,7 +24028,7 @@ line-height: normal;
       <property name="geometry">
        <rect>
         <x>70</x>
-        <y>410</y>
+        <y>420</y>
         <width>211</width>
         <height>31</height>
        </rect>
@@ -23910,7 +24082,7 @@ background: #FFF;
       <property name="geometry">
        <rect>
         <x>50</x>
-        <y>350</y>
+        <y>360</y>
         <width>251</width>
         <height>41</height>
        </rect>
@@ -23977,6 +24149,63 @@ line-height: normal;
       </property>
       <property name="scaledContents">
        <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_148">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>200</y>
+        <width>210</width>
+        <height>5</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_149">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>80</y>
+        <width>5</width>
+        <height>600</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_150">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>330</y>
+        <width>210</width>
+        <height>5</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
       </property>
      </widget>
     </widget>
@@ -24196,7 +24425,7 @@ line-height: normal;
       <property name="geometry">
        <rect>
         <x>70</x>
-        <y>510</y>
+        <y>520</y>
         <width>211</width>
         <height>31</height>
        </rect>
@@ -24266,25 +24495,6 @@ color:#FFFFFF;
 }</string>
       </property>
      </widget>
-     <widget class="Line" name="line_169">
-      <property name="geometry">
-       <rect>
-        <x>70</x>
-        <y>320</y>
-        <width>211</width>
-        <height>5</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Horizontal</enum>
-      </property>
-     </widget>
      <widget class="QPushButton" name="btnGiaiMa_29">
       <property name="geometry">
        <rect>
@@ -24317,7 +24527,7 @@ background: #FFF;
       <property name="geometry">
        <rect>
         <x>50</x>
-        <y>350</y>
+        <y>360</y>
         <width>251</width>
         <height>41</height>
        </rect>
@@ -24416,25 +24626,6 @@ line-height: normal;
       </property>
       <property name="alignment">
        <set>Qt::AlignCenter</set>
-      </property>
-     </widget>
-     <widget class="Line" name="line_170">
-      <property name="geometry">
-       <rect>
-        <x>370</x>
-        <y>60</y>
-        <width>3</width>
-        <height>601</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Vertical</enum>
       </property>
      </widget>
      <widget class="QPushButton" name="GM_AES_btn_29">
@@ -24567,7 +24758,7 @@ background: #FFF;
       <property name="geometry">
        <rect>
         <x>70</x>
-        <y>460</y>
+        <y>470</y>
         <width>211</width>
         <height>31</height>
        </rect>
@@ -24595,7 +24786,7 @@ background: #FFF;
       <property name="geometry">
        <rect>
         <x>70</x>
-        <y>410</y>
+        <y>420</y>
         <width>211</width>
         <height>31</height>
        </rect>
@@ -24683,25 +24874,6 @@ line-height: normal;
        <set>Qt::AlignCenter</set>
       </property>
      </widget>
-     <widget class="Line" name="line_168">
-      <property name="geometry">
-       <rect>
-        <x>70</x>
-        <y>200</y>
-        <width>211</width>
-        <height>5</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Horizontal</enum>
-      </property>
-     </widget>
      <widget class="QPushButton" name="btnSaveFile_29">
       <property name="geometry">
        <rect>
@@ -24768,6 +24940,63 @@ background: #FFF;
        <bool>true</bool>
       </property>
      </widget>
+     <widget class="QLabel" name="label_151">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>80</y>
+        <width>5</width>
+        <height>600</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_152">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>200</y>
+        <width>210</width>
+        <height>5</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_153">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>330</y>
+        <width>210</width>
+        <height>5</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="SDES_Dec">
      <widget class="QLabel" name="label_774">
@@ -24797,25 +25026,6 @@ color: #1AF5B9;
       </property>
       <property name="alignment">
        <set>Qt::AlignCenter</set>
-      </property>
-     </widget>
-     <widget class="Line" name="line_171">
-      <property name="geometry">
-       <rect>
-        <x>70</x>
-        <y>200</y>
-        <width>211</width>
-        <height>5</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Horizontal</enum>
       </property>
      </widget>
      <widget class="QLabel" name="label_767">
@@ -24879,25 +25089,6 @@ background: #FFF;
       </property>
       <property name="text">
        <string>AES</string>
-      </property>
-     </widget>
-     <widget class="Line" name="line_172">
-      <property name="geometry">
-       <rect>
-        <x>370</x>
-        <y>60</y>
-        <width>3</width>
-        <height>601</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Vertical</enum>
       </property>
      </widget>
      <widget class="QLabel" name="label_770">
@@ -25056,7 +25247,7 @@ background: #FFF;
       <property name="geometry">
        <rect>
         <x>70</x>
-        <y>510</y>
+        <y>520</y>
         <width>211</width>
         <height>31</height>
        </rect>
@@ -25151,7 +25342,7 @@ line-height: normal;
       <property name="geometry">
        <rect>
         <x>50</x>
-        <y>350</y>
+        <y>360</y>
         <width>251</width>
         <height>41</height>
        </rect>
@@ -25219,7 +25410,7 @@ line-height: normal;
       <property name="geometry">
        <rect>
         <x>70</x>
-        <y>460</y>
+        <y>470</y>
         <width>211</width>
         <height>31</height>
        </rect>
@@ -25247,7 +25438,7 @@ background: #FFF;
       <property name="geometry">
        <rect>
         <x>70</x>
-        <y>410</y>
+        <y>420</y>
         <width>211</width>
         <height>31</height>
        </rect>
@@ -25489,25 +25680,6 @@ color:#FFFFFF;
 }</string>
       </property>
      </widget>
-     <widget class="Line" name="line_173">
-      <property name="geometry">
-       <rect>
-        <x>70</x>
-        <y>320</y>
-        <width>211</width>
-        <height>5</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">Line{
-border-radius: 1px;
-background-color:#01C38E;
-}</string>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Horizontal</enum>
-      </property>
-     </widget>
      <widget class="QLabel" name="label_761">
       <property name="geometry">
        <rect>
@@ -25639,6 +25811,63 @@ background: #FFF;
       </property>
       <property name="scaledContents">
        <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_154">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>80</y>
+        <width>5</width>
+        <height>600</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_155">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>200</y>
+        <width>210</width>
+        <height>5</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_156">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>330</y>
+        <width>210</width>
+        <height>5</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-radius: 1px;
+background-color:#01C38E;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
       </property>
      </widget>
     </widget>
