@@ -1712,12 +1712,9 @@ class MyMainWindow(QMainWindow):
         self.stackedWidget.setCurrentWidget(self.Login)
         self.usernameInput.setText(self.username)
         self.passwordInput.setText(self.password)
-        #mở màn hình login
 
     def openMainWindow(self):
          self.stackedWidget.setCurrentWidget(self.Main)
-         #mở màn hình chính
-         #đóng màn hình login lại
     
 def main():
     app = QApplication(sys.argv)

@@ -25876,7 +25876,7 @@ background-color:#01C38E;
       <property name="geometry">
        <rect>
         <x>360</x>
-        <y>410</y>
+        <y>400</y>
         <width>35</width>
         <height>35</height>
        </rect>
@@ -25885,7 +25885,7 @@ background-color:#01C38E;
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>../ảnh cho app/Exit.png</pixmap>
+       <pixmap>Icon/Exit.png</pixmap>
       </property>
       <property name="scaledContents">
        <bool>true</bool>
@@ -25983,7 +25983,7 @@ color:rgb(255, 255, 255);
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>../ảnh cho app/lock.png</pixmap>
+       <pixmap>Icon/lock.png</pixmap>
       </property>
       <property name="scaledContents">
        <bool>true</bool>
@@ -26032,7 +26032,7 @@ color:rgb(255, 255, 255);
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>../ảnh cho app/Screenshot_1.png</pixmap>
+       <pixmap>Icon/Screenshot_1.png</pixmap>
       </property>
       <property name="scaledContents">
        <bool>true</bool>
@@ -26085,8 +26085,8 @@ background-color:rgb(0, 0, 0)
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>../ảnh cho app/eyeclose.png</normaloff>
-        <normalon>../ảnh cho app/eye.png</normalon>../ảnh cho app/eyeclose.png</iconset>
+        <normaloff>Icon/eyeclose.png</normaloff>
+        <normalon>Icon/6803345.png</normalon>Icon/eyeclose.png</iconset>
       </property>
      </widget>
      <widget class="QLabel" name="label_72">
@@ -26127,7 +26127,7 @@ background-color:#138267;</string>
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>../ảnh cho app/user_icon.png</pixmap>
+       <pixmap>Icon/user_icon.png</pixmap>
       </property>
       <property name="scaledContents">
        <bool>true</bool>
@@ -26192,8 +26192,8 @@ border: relative;</string>
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>../ảnh cho app/6803345.png</normaloff>
-        <normalon>../ảnh cho app/eyeclose.png</normalon>../ảnh cho app/6803345.png</iconset>
+        <normaloff>Icon/eye-close-1.png</normaloff>
+        <normalon>Icon/6803345.png</normalon>Icon/eye-close-1.png</iconset>
       </property>
      </widget>
      <widget class="QLabel" name="label_74">
@@ -26215,7 +26215,7 @@ background-color:#1A1E29;
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>../ảnh cho app/Screenshot_2.png</pixmap>
+       <pixmap>Icon/Screenshot_2.png</pixmap>
       </property>
       <property name="scaledContents">
        <bool>true</bool>
@@ -26238,8 +26238,8 @@ background-color:#1A1E29;
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>../ảnh cho app/6803345.png</normaloff>
-        <normalon>../ảnh cho app/eyeclose.png</normalon>../ảnh cho app/6803345.png</iconset>
+        <normaloff>Icon/eye-close-1.png</normaloff>
+        <normalon>Icon/6803345.png</normalon>Icon/eye-close-1.png</iconset>
       </property>
      </widget>
      <widget class="QLabel" name="label_75">
@@ -26283,7 +26283,7 @@ background-color:#1A1E29;
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>../ảnh cho app/Screenshot_4.png</pixmap>
+       <pixmap>Icon/Screenshot_4.png</pixmap>
       </property>
       <property name="scaledContents">
        <bool>true</bool>
@@ -26354,7 +26354,7 @@ color:rgb(255, 255, 255);
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>../ảnh cho app/Screenshot_3.png</pixmap>
+       <pixmap>Icon/Screenshot_3.png</pixmap>
       </property>
       <property name="scaledContents">
        <bool>true</bool>
@@ -26421,7 +26421,7 @@ color:rgb(255, 255, 255);
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>../ảnh cho app/Screenshot_5.png</pixmap>
+       <pixmap>Icon/Screenshot_5.png</pixmap>
       </property>
       <property name="scaledContents">
        <bool>true</bool>
