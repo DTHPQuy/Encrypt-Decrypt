@@ -40,6 +40,8 @@ class MyMainWindow(QMainWindow):
         self.k=[]
         self.p = ''
         self.s = ''
+        self.ci = ''
+        self.VBG = ''
         # Khai báo nút trên main window
         self.MHThayThe_btn_0.clicked.connect(self.Show_Ceasar_Enc)
         self.MHChuyenVi_btn_0.clicked.connect(self.Show_Hai_Dong_Enc)
@@ -628,25 +630,7 @@ class MyMainWindow(QMainWindow):
                 file.write(self.txtKey_1.toPlainText())
             self.show_custom_message("Thông báo", "Lưu file KEY thành công!!!!")
        #=========================================    
-            #Màn hình Vignere
-                #Button trong Vignere
-        self.btnClose_2.clicked.connect(self.ManHinhChinh)
-        self.MH_Ceasar_btn_2.clicked.connect(self.Ceasar_Enc)
-        self.MH_Trithemius_btn_2.clicked.connect(self.Trithemius_Enc)
-        self.MH_Belasco_btn_2.clicked.connect(self.Belasco_Enc)
-
-        self.MHChuyenVi_btn_2.clicked.connect(self.Hai_Dong_Enc)
-        self.MHXOR_btn_2.clicked.connect(self.XOR_Ceasar_Enc)
-        self.MHHienDai_btn_2.clicked.connect(self.AES_Enc)
-        self.MHMotChieu_btn_2.clicked.connect(self.SHA3_Enc)
-        
-                #Chức năng
-        self.textk = '' #khai báo toàn cục của lớp THIS => datamember
-        self.c = ''
-        self.btnMaHoa_2.clicked.connect(self.MaHoa_Vignere_Enc)
-        self.btnOpenFile_2.clicked.connect(self.MoFile_Vignere_Enc)
-        self.btnSaveFile_2.clicked.connect(self.GhiFile_Vignere_Enc)
-
+    
     def MaHoa_Vignere_Enc(self):
         self.textk = self.txtKey_2.toPlainText() #lấy dữ liệu trong text key của ThietKeMaHoaVignere
         if not self.textk:
@@ -1192,6 +1176,7 @@ class MyMainWindow(QMainWindow):
             #Màn hình giải mã Vignere
     
     def GiaiMa_Vignere_Dec(self):
+        
         textci = self.txtCiphertext_19.toPlainText() #lấy dữ liệu trong text ciphertext của ThietKeMaHoaVignere
         if not textci:
             self.show_custom_message( "Thông báo", "Bạn chưa mở file dữ liệu!!!!")
@@ -1419,8 +1404,7 @@ class MyMainWindow(QMainWindow):
     
 
     def GiaiMa_XOR_Vignere_Dec(self):
-        self.ci = ''
-        self.VBG = ''
+        self.k = ''
         textci = self.txtCiphertext_25.toPlainText() #lấy dữ liệu trong text ciphertext của ThietKeMaHoaVignere
         if not textci:
             self.show_custom_message( "Thông báo", "Bạn chưa mở file dữ liệu!!!!")
@@ -1486,8 +1470,7 @@ class MyMainWindow(QMainWindow):
             #Màn hình giải mã XOR Belasco
     
     def GiaiMa_XOR_Belasco_Dec(self):
-        self.ci = ''
-        self.VBG = ''
+
         textci = self.txtCiphertext_27.toPlainText() #lấy dữ liệu trong text ciphertext của ThietKeMaHoaVignere
         if not textci:
             self.show_custom_message("Thông báo", "Bạn chưa mở file dữ liệu!!!!")
@@ -1523,6 +1506,7 @@ class MyMainWindow(QMainWindow):
         #Màn hình Giải mã phương pháp hiện đại
             #Màn hình giải mã AES
     def GiaiMa_AES_Dec(self):
+        self.k = ''
         textci = self.txtCiphertext_28.toPlainText() #lấy dữ liệu trong text ciphertext của ThietKeMaHoaVignere
         if not textci:
             self.show_custom_message( "Thông báo", "Bạn chưa mở file dữ liệu!!!!")
